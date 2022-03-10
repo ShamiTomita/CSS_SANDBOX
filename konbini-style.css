@@ -3,14 +3,42 @@
   padding: 0;
   margin: 0
 }
+a {
+  text-decoration: none;
+}
+body {
+  font-family: "arial", sans-serif;
+  color: red;
+}
 header{
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
   align-items: center;
   height: 100%;
+  border-color: rgb(254, 250, 206);
+  border-style: double;
+  border-width: thick;
 }
-img{
+header a {
+  margin-left: 40px;
+  font-size: 20px;
+  font-weight: bold;
+  color:red
+
+}
+header a:hover {
+  border-width: thick;
+  border-color: red;
+  border-bottom: 3px solid rgb(6, 75, 179);
+
+}
+header a:active {
+  color: rgb(6, 75, 179)
+}
+
+header img{
   height:50px;
+  padding-left: 50px
 }
 .top-left, .top-center, .top-right{
   display: flex;
