@@ -53,17 +53,65 @@ header img{
 .grid {
   overflow: visible;
   display: grid;
-  grid-template-columns: 60% 20% 20%;
+  grid-template-columns: 30% 40% 30%;
 }
 
 .showcase {
   height: 300px;
   background-color: rgb(254, 250, 206);
 }
+.showcase img {
+  box-shadow: 7px 7px 7px rgba(0, 0, 0, 0.2);
+
+  margin-left: 5px;
+}
+.grid-item-1 img{
+  width: 70%
+}
+
+.grid-item-3 img{
+  width: 40%
+}
 
 .grid-item-1,
 .grid-item-2,
 .grid-item-3 {
   position: relative;
+
   top: 50px;
+}
+.grid-item-2{
+  text-align: left;
+}
+
+
+.showcase input[type='email'] {
+  padding: 10px 70px 10px 0;
+  font-size: 14px;
+  border: none;
+  border-radius: 6px;
+  padding-left: 6px;
+}
+
+.btn {
+  border-radius: 6px;
+  padding: 12px 20px;
+  background: red;
+  border: none;
+  margin-left: 10px;
+  color: white;
+  font-size: 16px;
+  cursor: pointer;
+  box-shadow: 0 10px 10px rgba(0, 0, 0, 0.2);
+}
+
+.showcase-form {
+  margin: auto;
+}
+
+/* Change typeface and its size */
+.little-info {
+  font-size: 15px;
+  font-family: "poppins", sans-serif;
+
 }
