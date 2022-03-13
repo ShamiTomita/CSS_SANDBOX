@@ -115,3 +115,9 @@ header img{
   font-family: "poppins", sans-serif;
 
 }
+
+.about {
+  height: 300px;
+  background-color: rgba(6, 75, 179, 0.62);
+  padding: 10px
+}
