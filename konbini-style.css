@@ -8,7 +8,7 @@ a {
 }
 body {
   font-family: "arial", sans-serif;
-  color: red;
+  color: rgb(255, 117, 4)
 }
 header{
   display: flex;
@@ -23,7 +23,7 @@ header a {
   margin-left: 40px;
   font-size: 20px;
   font-weight: bold;
-  color:red
+  color:rgb(255, 117, 4)
 
 }
 header a:hover {
@@ -149,13 +149,14 @@ header img{
 .about-text{
   margin-left: 20px;
   color: white;
+
 }
 .mid{
   height:250px
 }
 .kon-footer{
   height: 75px;
-  background-color: rgb(228, 103, 0);
+  background-color: rgb(255, 117, 4);
 }
 footer{
   display: flex;
@@ -178,7 +179,7 @@ footer a {
   padding-right: 10px;
   font-size: 20px;
   font-weight: bold;
-  color:rgb(246, 177, 59)
+  color:rgb(255, 117, 4)
 }
 .about-list li {
   padding-top: 23px;
