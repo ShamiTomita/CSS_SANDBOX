@@ -121,3 +121,28 @@ header img{
   background-color: rgba(6, 75, 179, 0.62);
   padding: 10px
 }
+.about-grid {
+  overflow: visible;
+  display: grid;
+  grid-template-columns: 10% 50% 40%;
+}
+
+.about-grid-1,
+.about-grid-2,
+.about-grid-3{
+  position: relative;
+  top: 50px;
+}
+
+.about-grid-1 img{
+  width: 100%
+}
+
+.about-grid-3 img{
+  width: 40%
+}
+.about img {
+  box-shadow: 7px 7px 7px rgba(0, 0, 0, 0.2);
+
+  margin-left: 5px;
+}
