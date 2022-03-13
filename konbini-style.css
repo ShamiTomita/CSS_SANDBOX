@@ -146,3 +146,26 @@ header img{
 
   margin-left: 5px;
 }
+.about-text{
+  margin-left: 20px;
+  color: white;
+}
+.mid{
+  height:250px
+}
+.kon-footer{
+  height: 75px;
+  background-color: rgb(228, 103, 0);
+}
+footer{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 100%;
+  border-color: rgb(254, 250, 206);
+  border-style: double;
+  border-width: thick;
+}
+footer a {
+  color: white
+}
