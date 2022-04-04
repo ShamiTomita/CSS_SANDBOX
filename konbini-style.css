@@ -152,7 +152,8 @@ header img{
 
 }
 .mid{
-  height:300px
+  height:250px;
+  width: 100%;
 }
 .kon-footer{
   height: 75px;
